@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Dec 13 20:14:54 2021
+# Process ID: 1452
+# Current directory: D:/adi_minimal/hdl/library/axi_ad9250
+# Command line: vivado.exe -mode batch -source axi_ad9250_ip.tcl
+# Log file: D:/adi_minimal/hdl/library/axi_ad9250/vivado.log
+# Journal file: D:/adi_minimal/hdl/library/axi_ad9250\vivado.jou
+#-----------------------------------------------------------
+source axi_ad9250_ip.tcl

@@ -1,0 +1,6 @@
+16:50:01 **** Incremental Build of configuration Debug for project test_ad9250 ****
+make all 
+make: Nothing to be done for 'all'.
+
+16:50:04 Build Finished (took 2s.837ms)
+

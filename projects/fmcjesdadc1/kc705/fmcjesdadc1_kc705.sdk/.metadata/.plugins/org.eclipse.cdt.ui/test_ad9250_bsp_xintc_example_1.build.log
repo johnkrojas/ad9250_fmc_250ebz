@@ -1,0 +1,21 @@
+22:45:45 **** Auto Build of configuration Debug for project test_ad9250_bsp_xintc_example_1 ****
+make all 
+'Building file: ../src/xintc_example.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xintc_example.o" -I../../test_ad9250_bsp/sys_mb/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xintc_example.d" -MT"src/xintc_example.o" -o "src/xintc_example.o" "../src/xintc_example.c"
+'Finished building: ../src/xintc_example.c'
+' '
+'Building target: test_ad9250_bsp_xintc_example_1.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_ad9250_bsp/sys_mb/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mxl-multiply-high -Wl,--no-relax -Wl,--gc-sections -o "test_ad9250_bsp_xintc_example_1.elf"  ./src/xintc_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_ad9250_bsp_xintc_example_1.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_ad9250_bsp_xintc_example_1.elf  |tee "test_ad9250_bsp_xintc_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9720	    872	   3264	  13856	   3620	test_ad9250_bsp_xintc_example_1.elf
+'Finished building: test_ad9250_bsp_xintc_example_1.elf.size'
+' '
+
+22:45:46 Build Finished (took 804ms)
+

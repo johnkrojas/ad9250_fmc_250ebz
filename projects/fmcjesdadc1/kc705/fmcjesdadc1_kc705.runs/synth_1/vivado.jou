@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Dec 22 17:20:07 2021
+# Process ID: 18240
+# Current directory: D:/JARS2x/adi_minimal_reduced_125MHz_sgmii/hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/synth_1
+# Command line: vivado.exe -log system_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_top.tcl
+# Log file: D:/JARS2x/adi_minimal_reduced_125MHz_sgmii/hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/synth_1/system_top.vds
+# Journal file: D:/JARS2x/adi_minimal_reduced_125MHz_sgmii/hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source system_top.tcl -notrace

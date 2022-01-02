@@ -1,0 +1,62 @@
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.1 (64-bit)
+# SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+# Current time: Wed Dec 15 11:13:04 COT 2021
+# Process ID (PID): 25324
+# User: Usuario
+# OS: Windows 10
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+Wed Dec 15 11:13:04 COT 2021
+java.lang.NullPointerException
+	at ui.b.c.B.a(SourceFile:318)
+	at ui.b.c.B.getVisibleRowCount(SourceFile:313)
+	at ui.b.c.B.getRowCount(SourceFile:305)
+	at ui.b.c.B.cCY(SourceFile:349)
+	at ui.b.c.B.h(SourceFile:49)
+	at ui.b.c.G.cDd(SourceFile:243)
+	at ui.utils.o.t.j.d(SourceFile:289)
+	at ui.utils.o.t.j.removeUpdate(SourceFile:269)
+	at java.desktop/javax.swing.text.AbstractDocument.fireRemoveUpdate(Unknown Source)
+	at java.desktop/javax.swing.text.AbstractDocument.handleRemove(Unknown Source)
+	at java.desktop/javax.swing.text.AbstractDocument.remove(Unknown Source)
+	at java.desktop/javax.swing.text.AbstractDocument.replace(Unknown Source)
+	at java.desktop/javax.swing.text.JTextComponent.setText(Unknown Source)
+	at java.desktop/javax.swing.JFormattedTextField$AbstractFormatter.install(Unknown Source)
+	at java.desktop/javax.swing.text.DefaultFormatter.install(Unknown Source)
+	at java.desktop/javax.swing.text.InternationalFormatter.install(Unknown Source)
+	at java.desktop/javax.swing.JFormattedTextField.setFormatter(Unknown Source)
+	at java.desktop/javax.swing.JFormattedTextField.setValue(Unknown Source)
+	at java.desktop/javax.swing.JFormattedTextField.processFocusEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.KeyboardFocusManager.redispatchEvent(Unknown Source)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(Unknown Source)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/sun.awt.SunToolkit$1.run(Unknown Source)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+

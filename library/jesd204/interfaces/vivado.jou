@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Dec 13 20:16:35 2021
+# Process ID: 18588
+# Current directory: D:/adi_minimal/hdl/library/jesd204/interfaces
+# Command line: vivado.exe -mode batch -source interfaces_ip.tcl
+# Log file: D:/adi_minimal/hdl/library/jesd204/interfaces/vivado.log
+# Journal file: D:/adi_minimal/hdl/library/jesd204/interfaces\vivado.jou
+#-----------------------------------------------------------
+source interfaces_ip.tcl
